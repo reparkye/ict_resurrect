@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="container">
+<table border="1">
+	<tr>
+		<td id="td1">난 단일 테이블의 td 입니다.</td>
+	</tr>
+</table>
+</div>
+	<table border="1">
+		<tr>
+			<td id="td2">난 테이블의 td 입니다.</td>
+		</tr>
+	</table>
+<script>
+	var tdObj = document.querySelector(".container td");
+	alert(tdObj.innerHTML);
+	tdObj.innerHTML = "난 바뀐 테이블";
+
+</script>
+
+</body>
+</html>
